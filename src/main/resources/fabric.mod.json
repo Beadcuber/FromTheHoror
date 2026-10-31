@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fromthehorror",
+  "version": "${version}",
+  "name": "FromTheHorror",
+  "description": "Horror mod: a stalking Dweller, a vanishing Watcher, a flashlight, creeping darkness events, and Buddy, a scripted companion with built-in text-to-speech.",
+  "authors": ["FromTheHorror"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.fromthehorror.FromTheHorror"],
+    "client": ["com.fromthehorror.client.FromTheHorrorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
